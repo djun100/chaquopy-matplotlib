@@ -23,6 +23,8 @@ android {
         python {
             pip {
                 install "matplotlib"
+                options("--only-binary", ":all:")  // 关键：强制使用预编译包
+                options("--timeout", "300")
             }
         }
     }

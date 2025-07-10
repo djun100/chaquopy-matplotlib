@@ -1,5 +1,22 @@
 pluginManagement {
     repositories {
+                //https://blog.csdn.net/weixin_43298211/article/details/141940624  
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }  
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/repository/maven/' }  
+        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }  
+        maven { url 'https://mirrors.ustc.edu.cn/maven/' }  
+        maven { url 'https://mirrors.ustc.edu.cn/maven-central/' }  
+        maven {  
+            allowInsecureProtocol = true  
+            url "http://maven.oschina.net/content/groups/public/" }  
+        maven { url 'https://maven.aliyun.com/repository/public/' }  
+        maven { url 'https://maven.aliyun.com/repository/google/' }  
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }  
+        maven { url 'https://maven.aliyun.com/repository/central/' }  
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }  
+        maven {  
+            allowInsecureProtocol = true  
+            url "http://maven.aliyun.com/nexus/content/groups/public/" }  
         gradlePluginPortal()
         google()
         mavenCentral()
@@ -8,6 +25,23 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+                //https://blog.csdn.net/weixin_43298211/article/details/141940624  
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }  
+        maven { url 'https://mirrors.tuna.tsinghua.edu.cn/repository/maven/' }  
+        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }  
+        maven { url 'https://mirrors.ustc.edu.cn/maven/' }  
+        maven { url 'https://mirrors.ustc.edu.cn/maven-central/' }  
+        maven {  
+            allowInsecureProtocol = true  
+            url "http://maven.oschina.net/content/groups/public/" }  
+        maven { url 'https://maven.aliyun.com/repository/public/' }  
+        maven { url 'https://maven.aliyun.com/repository/google/' }  
+        maven { url 'https://maven.aliyun.com/repository/jcenter/' }  
+        maven { url 'https://maven.aliyun.com/repository/central/' }  
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }  
+        maven {  
+            allowInsecureProtocol = true  
+            url "http://maven.aliyun.com/nexus/content/groups/public/" }  
         google()
         mavenCentral()
     }
